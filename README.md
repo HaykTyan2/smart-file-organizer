@@ -9,15 +9,16 @@ What this project does
 The program scans a user-selected folder and organizes files into categorized subfolders.
 
 It allows the user to:
-
+```
 • Automatically organize files by extension (Images, Documents, Videos, etc.)
 • Learn new file types interactively when unknown extensions are found
 • Store learned rules in a JSON configuration file
 • Log every action to a text log and SQLite database
 • Re-run safely without duplicating work
+```
 
 How it works (high level)
-
+```
 • The user provides a folder path
 • A configuration file defines extension-to-category mappings
 • Files are scanned one by one
@@ -26,6 +27,7 @@ How it works (high level)
 • New rules are saved to config.json
 • All actions are logged to a file and database
 • An Organized/ directory is created automatically
+```
 
 --------------------------------------------------------------------------------------------------------
 
@@ -53,11 +55,13 @@ main.py
 This is the main entry point of the program.
 
 It is responsible for:
+```
 • Initializing the database
 • Requesting user input
 • Validating folder paths
 • Triggering the organization process
 • Logging start and completion events
+```
 
 --------------------------------------------------------------------------------------------------------
 
@@ -66,10 +70,12 @@ It is responsible for:
 Handles the actual organization process.
 
 This file:
+```
 • Scans the target folder
 • Moves files into categorized subfolders
 • Creates an Organized/ directory automatically
 • Handles unknown file types interactively
+```
 
 --------------------------------------------------------------------------------------------------------
 
