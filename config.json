@@ -1,0 +1,79 @@
+{
+    "Images": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".svg",
+        ".heic"
+    ],
+    "Documents": [
+        ".pdf",
+        ".docx",
+        ".txt",
+        ".csv",
+        ".psd"
+    ],
+    "Music": [
+        ".mp3",
+        ".wav"
+    ],
+    "Videos": [
+        ".mp4",
+        ".avi",
+        ".mov",
+        ".m4a",
+        ".ppt",
+        ".zpw",
+        ".sc2replay"
+    ],
+    "Archives": [
+        ".zip",
+        ".rar",
+        ".tar",
+        ".gz"
+    ],
+    "Applications": [
+        ".exe",
+        ".msi",
+        ".dmg",
+        ".jar",
+        ".py",
+        ".pl",
+        ".ini",
+        ".appinstaller"
+    ],
+    "Other": [
+        ".",
+        ".7z",
+        ".lnk"
+    ],
+    "applications": [
+        ".winmd",
+        ".diagcab",
+        ".ipynb",
+        ".joblib",
+        ".json",
+        ".py",
+        ".pl"
+    ],
+    "music": [
+        ".w64"
+    ],
+    "other": [
+        ".7z"
+    ],
+    "images": [
+        ".avif",
+        ".svg"
+    ],
+    "documents": [
+        ".doc",
+        ".xlsx",
+        ".excalidraw"
+    ],
+    "downloads": [
+        ".apkg",
+        ".iso"
+    ]
+}
