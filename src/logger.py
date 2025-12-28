@@ -26,7 +26,7 @@ def read_logs():
         print("No log file found yet.")
         return
 
-    print("\n📜 Log History:\n" + "-" * 40)
+    print("\n Log History:\n" + "-" * 40)
     with open(LOG_PATH, "r", encoding="utf-8") as f:
         print(f.read())
 
@@ -35,3 +35,4 @@ if __name__ == "__main__":
     log_action("Test log entry created successfully.")
     print("Wrote a test log entry to log.txt")
     read_logs()
+
