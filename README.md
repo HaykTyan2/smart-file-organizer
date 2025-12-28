@@ -4,7 +4,9 @@ A Python-based file organization tool that automatically sorts files into folder
 
 This project was built as a learning exercise to understand filesystem automation, configuration-driven behavior, logging, and lightweight database usage in Python.
 
-What this project does
+--------------------------------------------------------------------------------------------------------
+
+## What this project does
 
 The program scans a user-selected folder and organizes files into categorized subfolders.
 
