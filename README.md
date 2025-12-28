@@ -16,7 +16,7 @@ It allows the user to:
 • Log every action to a text log and SQLite database
 • Re-run safely without duplicating work
 ```
-
+--------------------------------------------------------------------------------------------------------
 How it works (high level)
 ```
 • The user provides a folder path
@@ -28,7 +28,6 @@ How it works (high level)
 • All actions are logged to a file and database
 • An Organized/ directory is created automatically
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## Project structure
@@ -62,7 +61,6 @@ It is responsible for:
 • Triggering the organization process
 • Logging start and completion events
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## src/organizer.py
@@ -76,7 +74,6 @@ This file:
 • Creates an Organized/ directory automatically
 • Handles unknown file types interactively
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## src/config_manager.py
@@ -84,10 +81,11 @@ This file:
 Manages the configuration file.
 
 This file:
+```
 • Loads extension mappings from config.json
 • Creates config.json if missing
 • Saves newly learned file type rules
-
+```
 --------------------------------------------------------------------------------------------------------
 
 ## src/logger.py
@@ -95,20 +93,22 @@ This file:
 Handles logging.
 
 This file:
+```
 • Appends timestamped actions to log.txt
 • Allows viewing past actions
 • Supports debugging and auditing
-
+```
 --------------------------------------------------------------------------------------------------------
 ## src/database.py
 
 Handles SQLite logging.
 
 This file:
+```
 • Creates the SQLite database if needed
 • Stores timestamped action records
 • Keeps logs structured and queryable
-
+```
 --------------------------------------------------------------------------------------------------------
 
 ## Installation / Process
@@ -120,40 +120,37 @@ git clone https://github.com/YOUR_USERNAME/smart-file-organizer.git
 ```
 cd smart-file-organizer
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## Run the program:
 ```
 python main.py
 ```
-
 --------------------------------------------------------------------------------------------------------
 
 ## Output
-
+```
 • Files are moved into Organized/ subfolders
 • New categories are learned automatically
 • Logs are written to log.txt
 • Actions are recorded in file_organizer.db
-
+```
 --------------------------------------------------------------------------------------------------------
 
 ## Notes and limitations
-
+```
 • This project runs locally only
 • It is designed for personal file organization
 • The organizer skips directories by default
 • Existing files are never overwritten
 • SQLite database and logs are generated at runtime
-
+```
 --------------------------------------------------------------------------------------------------------
 
 ## License
